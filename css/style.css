@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.selectionContainer {
+  width: 30%;
+  left: 0;
+}
+.head img {
+  position: absolute;
+}
+.eyes img,
+.nose img,
+.mouth img {
+  position: absolute;
+  right: 0;
+}
+.head {
+  z-index: 0;
+  position: absolute;
+  right: 0;
+}
+.eyes,
+.nose,
+.mouth {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+
+.eyes img {
+  margin-top: 85px;
+}
+.nose img {
+  margin-top: 140px;
+}
+.mouth img {
+  margin-top: 300px;
+}

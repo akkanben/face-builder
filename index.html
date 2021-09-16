@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="app-wrapper">
+      <div class="selectionContainer">
+        <form>
+          <div class="headSelector">
+            <h2>Choose Head:</h2>
+            <ul>
+              <li>
+                <input type="radio" name="head" value="Head A" />
+                <label>Head A</label>
+              </li>
+              <li>
+                <input type="radio" name="head" value="Head B" />
+                <label>Head B</label>
+              </li>
+              <li>
+                <input type="radio" name="head" value="Head C" />
+                <label>Head C</label>
+              </li>
+            </ul>
+          </div>
+          <div class="inputs">
+            <ul>
+              <li>
+                <input id="head-hue" type="range" min="0" max="359" value="0" />
+                <label>Hue</label>
+              </li>
+              <li>
+                <input
+                  id="head-brightness"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="0"
+                />
+                <label>Brightness</label>
+              </li>
+              <li>
+                <input
+                  id="head-saturate"
+                  type="range"
+                  min="0"
+                  max="5000"
+                  value="0"
+                />
+                <label>Saturate</label>
+              </li>
+              <li>
+                <input
+                  id="head-sepia"
+                  type="range"
+                  min="0"
+                  max="99"
+                  value="0"
+                />
+                <label>Sepia</label>
+              </li>
+              <li>
+                <input
+                  id="head-invert"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="0"
+                />
+                <label>Invert</label>
+              </li>
+            </ul>
+          </div>
+          <div class="eyeSelector">
+            <h2>Choose Eyes:</h2>
+            <ul>
+              <li>
+                <input type="radio" name="eyes" value="Eye A" />
+                <label>Eye A</label>
+              </li>
+              <li>
+                <input type="radio" name="eyes" value="Eye B" />
+                <label>Eye B</label>
+              </li>
+              <li>
+                <input type="radio" name="eyes" value="Eye C" />
+                <label>Eye C</label>
+              </li>
+            </ul>
+          </div>
+          <div class="noseSelector">
+            <h2>Choose Nose:</h2>
+            <ul>
+              <li>
+                <input type="radio" name="nose" value="Nose A" />
+                <label>Nose A</label>
+              </li>
+              <li>
+                <input type="radio" name="nose" value="Nose B" />
+                <label>Nose B</label>
+              </li>
+              <li>
+                <input type="radio" name="nose" value="Nose C" />
+                <label>Nose C</label>
+              </li>
+            </ul>
+          </div>
+          <div class="mouthSelector">
+            <h2>Choose Mouth:</h2>
+            <ul>
+              <li>
+                <input type="radio" name="mouth" value="Mouth A" />
+                <label>Mouth A</label>
+              </li>
+              <li>
+                <input type="radio" name="mouth" value="Mouth B" />
+                <label>Mouth B</label>
+              </li>
+              <li>
+                <input type="radio" name="mouth" value="Mouth C" />
+                <label>Mouth C</label>
+              </li>
+            </ul>
+          </div>
+          <button>Create Face</button>
+        </form>
+      </div>
+      <div class="head"></div>
+      <div class="eyes"></div>
+      <div class="nose"></div>
+      <div class="mouth"></div>
+    </div>
+  </body>
+</html>
